@@ -42,7 +42,7 @@ export default function Section1({
       placeholder: standards.tss,
     },
     {
-      label: "Amonia (mg/L N-NH3.)",
+      label: "Amonia (mg/L N-NH₃)",
       placeholder: standards.amonia,
     },
     {
