@@ -1,3 +1,5 @@
+import { formatNumbers, formatObjectNumbers } from "./format";
+
 // Weight (Wi)
 export const weights = {
   suhu: 0.1538,

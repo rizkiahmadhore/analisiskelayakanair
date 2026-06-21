@@ -16,6 +16,10 @@ export default function Wellcome() {
         alt="Logo UGM"
         width={200}
         height={200}
+        draggable={false}
+        loading="eager"
+        
+        className="w-60 h-60 mb-5"
       />
       <BlurText
         text="Selamat Datang di Sistem Analisis Kelayakan Sumber Air Budidaya Udang Vaname"

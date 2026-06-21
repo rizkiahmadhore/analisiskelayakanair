@@ -46,7 +46,7 @@ export default function Section1({
       placeholder: standards.amonia,
     },
     {
-      label: "Bahan organik total (ml/L)",
+      label: "Bahan organik (mg/L)",
       placeholder: standards.organik,
     },
   ];

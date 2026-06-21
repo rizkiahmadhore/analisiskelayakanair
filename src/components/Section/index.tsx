@@ -16,7 +16,7 @@ import {
   getGWQIClass,
 } from "@/app/utils/formula";
 
-import { formatObjectNumbers } from "@/app/utils/format";
+import { formatNumbers, formatObjectNumbers } from "@/app/utils/format";
 import CustomButton from "../CustomButton";
 import { Info, IterationCw } from "lucide-react";
 
@@ -48,9 +48,9 @@ export default function Section() {
 
     const result = calculateGWQI(inputs);
 
-    setStep1Result(formatObjectNumbers(result.step1, 4));
-    setStep2Result(formatObjectNumbers(result.step2, 4));
-    setStep3Result(formatObjectNumbers({ total: result.step3 }, 3).total);
+    setStep1Result(formatObjectNumbers(result.step1));
+    setStep2Result(formatObjectNumbers(result.step2));
+    setStep3Result(formatObjectNumbers({ total: result.step3 }).total);
 
     setShowWarning(false);
     setShowResult(true);
