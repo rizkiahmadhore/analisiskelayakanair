@@ -1,5 +1,3 @@
-import { formatNumbers, formatObjectNumbers } from "./format";
-
 // Weight (Wi)
 export const weights = {
   suhu: 0.1538,
@@ -17,7 +15,7 @@ export const standards = {
   sal: 20,
   ph: 7.5,
   do: 4,
-  tss: 20,
+  tss: 80,
   amonia: 0.1,
   organik: 55,
 };

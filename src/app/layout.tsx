@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import localFont from "next/font/local";
 import "./globals.css";
 
-export const gamaSerif = localFont({
+const gamaSerif = localFont({
   src: [
     {
       path: "./fonts/Gama-Serif-Regular.otf",
