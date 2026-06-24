@@ -18,7 +18,6 @@ export default function Wellcome() {
         height={200}
         draggable={false}
         loading="eager"
-        
         className="w-60 h-60 mb-5"
       />
       <BlurText
